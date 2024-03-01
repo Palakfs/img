@@ -1,0 +1,235 @@
+*{
+    padding-left: 0;
+    padding-right: 0;
+}
+hr{
+    background-color: solid #80B3D9 ;
+}
+hr{
+    margin-left: 40 px;
+    margin-right: 40 px;
+    
+}
+ul.nav{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items:center;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+
+.nav-links{
+display:flex;
+ flex:1;
+ text-align: right;
+}
+ul li {
+    display:inline;
+    list-style: none;
+    text-align: right;
+}
+ ul li a{
+    text-decoration: none;
+    color: #232323;
+    font: Lato;
+    font-size:14px ;
+    font-weight: 400;
+    
+}
+div.top{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-content:flex-start;
+    padding-left:20px;
+}
+
+div.mid{
+    font-size:18px;
+}
+ul.right{
+    display: flex;
+    flex-direction:column;
+    align-items: flex-end;
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-left:580px;
+}
+ul.col{
+    display:flex;
+    flex-direction:row;
+    align-items: space-around;
+
+}
+ul.right li{
+    margin-bottom: 10px;
+}
+ul.elements{
+    display: flex;
+    justify-content: space-between;
+}
+ul.elements li{
+    margin-right: 5px;
+    margin-left: 5px;
+}
+div.midb{
+    display: flex;
+    justify-content:space-around;
+    align-items: flex-end;
+}
+div.images{
+    display:flex;
+    justify-content:space-around;
+    align-items: flex-start;
+}
+div.names{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+}
+div.bottom{
+    display: flex;
+    justify-content: space-around;
+    
+}
+div.one{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: flex-start;
+
+}
+div.l{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+div.end{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+div.z{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+div.btw{
+    display: flex;
+    justify-content: space-between;
+}
+div.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    flex-direction:row;
+    align-items: flex-end;
+    width:250px;
+    height:376px;
+    overflow:hidden;
+    position:relative;
+}
+
+container.img{
+    width:250px;
+    height:376px;
+}
+img.imageh{
+    width:100%;
+    height:100%;
+    position:relative;
+    top:0;
+    left:0;
+    width:250px;
+    height:376px;
+    overflow: hidden;
+    opacity: 0;
+    transition:opacity 0.7s;
+}
+.container:hover img.imageh{
+    opacity:1;
+}
+div.rishiraj{
+    width: 240px;
+    height: 335px;
+    background-image:url(Images/rishiraj.png);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+div.rishiraj:hover{
+    background-image: url(Images/rishiraj2.png);
+    width:280px;
+    height: 390px;
+}
+div.anshika{
+    width:220px;
+    height: 340px;
+    background-image:url(Images/anshika.png);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+div.anshika:hover{
+    background-image: url(Images/anshika2.png);
+    width:255px;
+    height: 390px;
+}
+div.gauri{
+    width:240px;
+    height: 340px;
+    background-image:url(Images/gauri.png);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+div.gauri:hover{
+    background-image: url(Images/gauri2.png);
+    width:255px;
+    height: 390px;
+}
+div.akhil{
+    width:265px;
+    height: 440px;
+    background-image:url(Images/akhil.png);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+div.akhil:hover{
+    background-image: url(Images/akhil2.png);
+    width:290px;
+    height: 395px;
+}
+div.samrat{
+    width:295px;
+    height: 380px;
+    background-image:url(Images/samrat.png);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+div.samrat:hover{
+    background-image: url(Images/samrat2.png);
+    width:310px;
+    height: 400px;
+}
+div.noble{
+    width:350px;
+    height:450px;
+    background-image:url(Images/noble.png);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+div.noble:hover{
+    background-image: url(Images/noble2.png);
+    width:305px;
+    height: 400px;
+}
