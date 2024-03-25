@@ -1,0 +1,358 @@
+*{
+    padding-left: 0;
+    padding-right: 0;
+}
+hr{
+    background-color: solid #80B3D9 ;
+}
+hr{
+    margin-left: 40 px;
+    margin-right: 40 px;
+    
+}
+@media screen and (min-width:600px){ul.nav{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items:center;
+    margin-left:5%;
+    margin-right:5%;   
+}
+.hamburger .button1{
+    display: none;
+}
+div.images{
+    display: flex;
+    flex-wrap: nowrap;
+}
+div.names{
+    width: 34%;
+}
+
+}
+@media screen and (max-width:599px){
+.nav li{
+display: none;
+}
+}
+
+
+.nav-links{
+display:flex;
+ flex:1;
+ text-align: right;
+}
+ul li {
+    display:inline;
+    list-style: none;
+    text-align: right;
+}
+ ul li a{
+    text-decoration: none;
+    color: #232323;
+    font:Lato;
+    font-size:14px ;
+    font-weight:400;    
+}
+div.top{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-content:flex-start;
+    padding-left:20px;
+}
+
+div.mid{
+    font-size:18px;
+    flex-wrap:wrap;
+    margin-bottom: 175px;
+}
+@media screen and (min-width:600px){
+    div.mid{
+        font-size:18px;
+        flex-wrap:wrap;
+        margin-bottom: 50px;
+    
+    }
+}
+.right{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items:flex-start;
+    margin-right:10%;
+   
+}
+@media screen and (max-width:600px){
+    .right{display:none}
+}
+.col{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items: center;
+    width:100%;
+    padding-right:10%;
+}
+@media screen and (max-width:950px){
+    div.col{
+       justify-content: center;
+
+    }
+    .logo{
+        margin-right:10%;
+    }
+}
+@media screen and (max-width:500px){
+    div.col{
+       justify-content: center;
+
+    }
+    .logo{
+        margin-right:15px;
+    }
+}
+div.elements{
+    display: flex;
+    justify-content:flex-start;
+    margin-right: 55px;
+    margin-bottom: 10px;
+}
+div.elements li{
+    margin-right:5px;
+    
+
+}
+div.midb{
+    display: flex;
+    justify-content:space-around;
+    align-items:flex-end;
+    margin-bottom:5%;
+}
+div.images{
+    display:flex;
+    justify-content:center;
+   
+    align-items: flex-start;
+    width: 100%;
+    margin-top: 50px;
+}
+@media screen and (max-width:600px){
+    div.images{
+        flex-wrap: wrap;
+    }
+}
+div.names{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:space-between;
+    width:33.33%;
+}
+@media screen and (max-width:600px){
+    div.names{
+    width:100%;
+    }
+}
+div.bottom{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    
+}
+div.one{
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:column;
+    justify-content:center;
+    align-items:flex-start;
+    width :240px;
+
+}
+div.l{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items: center;
+}
+div.end{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+div.z{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+div.btw{
+    display: flex;
+    justify-content: space-between;
+}
+div.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    align-items: flex-end;
+    width:250px;
+    height:376px;
+    overflow:hidden;
+    position:relative;
+}
+
+
+img.imageh{
+    width:100%;
+    height:100%;
+    position:relative;
+    top:0;
+    left:0;
+    width:250px;
+    height:376px;
+    overflow: hidden;
+    opacity: 0;
+    transition:opacity 0.7s;
+}
+.container:hover img.imageh{
+    opacity:1;
+}
+div.rishiraj{
+    width: 240px;
+    height: 335px;
+    background-image:url(Images/rishiraj.png);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+div.rishiraj:hover{
+    background-image: url(Images/rishiraj2.png);
+    width:280px;
+    height: 390px;
+    transition: all 0.7s;
+}
+div.anshika{
+    width:220px;
+    height: 340px;
+    background-image:url(Images/anshika.png);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+div.anshika:hover{
+    background-image: url(Images/anshika2.png);
+    width:255px;
+    height: 390px;
+    transition: all 0.7s;
+}
+
+div.gauri{
+    width:240px;
+    height: 340px;
+    background-image:url(Images/gauri.png);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+div.gauri:hover{
+    background-image: url(Images/gauri2.png);
+    width:255px;
+    height: 390px;
+    transition: all 0.7s;
+}
+div.akhil{
+    width:265px;
+    height: 440px;
+    background-image:url(Images/akhil.png);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+div.akhil:hover{
+    background-image: url(Images/akhil2.png);
+    width:290px;
+    height: 395px;
+    transition: all 0.7s;
+}
+div.samrat{
+    width:295px;
+    height: 380px;
+    background-image:url(Images/samrat.png);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+div.samrat:hover{
+    background-image: url(Images/samrat2.png);
+    width:310px;
+    height: 400px;
+    transition: all 0.7s;
+}
+div.noble{
+    width:350px;
+    height:450px;
+    background-image:url(Images/noble.png);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+     transition: all 0.7s;
+}
+div.noble:hover{
+    background-image: url(Images/noble2.png);
+    width:305px;
+    height: 400px;
+}
+
+
+.menu ul li{
+    list-style: none;
+    text-align: left;
+}
+ul li a{
+    text-decoration: none;
+    color: #232323;
+    font: Lato;
+    font-size:14px ;
+    font-weight: 400;
+    
+}
+.menu.open{
+    display: flex;
+    flex-direction:column ;
+    .menu ul{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
+
+.menu ul.open{
+    display:flex;
+    flex-direction:column;
+}
+.hamburger{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width:20%;
+    
+}
+.menu ul{
+    display:none;
+}
+
+
+.button1:hover .menu ul{
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    
+}
